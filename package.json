@@ -4,7 +4,8 @@
   "description": "Repositorio para el proyecto de la materia de despliegue\r Te amo JP",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
