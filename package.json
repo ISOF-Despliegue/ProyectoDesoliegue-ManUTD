@@ -1,0 +1,24 @@
+{
+  "name": "proyectodesoliegue-manutd",
+  "version": "1.0.0",
+  "description": "Repositorio para el proyecto de la materia de despliegue\r Te amo JP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISOF-Despliegue/ProyectoDesoliegue-ManUTD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ISOF-Despliegue/ProyectoDesoliegue-ManUTD/issues"
+  },
+  "homepage": "https://github.com/ISOF-Despliegue/ProyectoDesoliegue-ManUTD#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
