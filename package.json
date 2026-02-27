@@ -4,8 +4,7 @@
   "description": "Repositorio para el proyecto de la materia de despliegue\r Te amo JP",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/app.js",
-    "start": "node src/app.js"
+    "dev": "nodemon --watch src --ext js,json --ignore node_modules --exec node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -14,12 +13,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/ISOF-Despliegue/ProyectoDesoliegue-ManUTD/issues"
   },
   "homepage": "https://github.com/ISOF-Despliegue/ProyectoDesoliegue-ManUTD#readme",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
